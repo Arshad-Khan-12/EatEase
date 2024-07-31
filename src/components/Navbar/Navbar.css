@@ -7,6 +7,9 @@
 
 .navbar .logo {
   width: 85px;
+  /* aspect-ratio: 4/3; */
+  /* object-fit: contain; */
+  /* mix-blend-mode: difference; */
   border-radius: 40px;
 }
 
@@ -48,4 +51,21 @@
 .navbar li {
   cursor: pointer;
   list-style: none;
+  transition: transform 0.5s;
+  transition-timing-function: linear;
+}
+
+.navbar-search-icon {
+  position: relative;
+}
+
+.navbar-search-icon .dot {
+  position: absolute;
+
+  min-width: 10px;
+  min-height: 10px;
+  background-color: red;
+  top: -8px;
+  right: -8px;
+  border-radius: 5px;
 }
