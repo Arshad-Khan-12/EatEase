@@ -33,12 +33,16 @@
 .header-contents button {
   border: 2px solid #ffa27f;
   padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .header-contents button:hover {
-  background-color: #ffe8c5;
+  background-color: #ff0000;
   transform: scale(1.15);
-  color: rgb(0, 0, 0);
+  font-weight: 500;
+  color: rgb(255, 255, 255);
 }

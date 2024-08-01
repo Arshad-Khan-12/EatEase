@@ -26,8 +26,12 @@
   /* -webkit-background-composite: transparent; */
   -webkit-text-fill-color: transparent;
   font-weight: 1000;
-
+  transition: transform 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.navbar .eatease:hover {
+  transform: scale(1.1);
 }
 
 .navbar-menu {
@@ -46,8 +50,9 @@
 }
 
 .navbar-right button {
-  border: 1px solid #ffa27f;
+  border: 1px solid #ff0000;
   padding: 10px 20px;
+  cursor: pointer;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
 }
